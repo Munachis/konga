@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.navbar ul{
+    padding-left: 40px;
+    display: flex;
+    gap: 25px;
+}
+.navbar{
+    background-color: white;
+    height: 20px;
+    width: 110%;
+}
+.navbar2{
+    display: flex;
+    background-color:#e70680 ;
+    height: 35px;
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+    gap: 70px;
+    padding-top: 8px;
+    width: 110%;
+}
+.logo{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+  .navbar2 input {
+    font-size: 8px;
+    font-weight: 600;
+    color: lightgrey;
+}
+.bi bi-question-lg{
+    border: 1px solid #ea61ac;
+    background-color: #ea61ac;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    
+}
+.navbar2 button i{
+    font-weight: 1000;
+    font-size: px;
+    color: white;
+}
+.navbar2 button{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+     background-color: green;
+     border: 1px solid green;
+     color: white;
+     font-size: 8px;
+     font-weight: 600;
+}
+.navbar2 button i input{
+    width: 10px;
+}
+nav{
+   
+
+}
+.navbar3{
+    display: flex;
+    /* grid-template-columns: repeat(8,1fr); */
+    background-color: #94004f;
+    height: 23px;
+    gap: 35px;
+    width: 110%;
+    font-size: 9px;
+    font-weight: 600 ;
+    color: white;
+    padding-top: 05px;
+}
+.greaty{
+    font-weight: 900;
+    padding-left: 30px;
+}
+.then{
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+}
+.class{
+    background-color: #94004f;
+
+}
+
+
+
+.container{
+    margin: px;
+    background-color: rgb(234, 233, 233);
+    /* display: flex; */
+    height: 1000px;
+}
+.frt{
+    align-self: flex-end;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 5px;
+}
+.contain{
+    display: flex  ;
+    gap: 15px;
+}
+.contain img{
+    align-self: flex-start;
+    border-radius: 10%;
+    padding-top: 09px;
+    padding-left: 10px;
+}
+.frt{
+    align-self: flex-end;
+    gap: 10px;
+}
+.frt img{
+    border-radius:  20%; ;
+}
+.part2{
+    /* display: grid;
+    grid-template-columns: repeat(6,1fr); */
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.part2 div{
+    margin-top: 20px;
+    margin-left: 13px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    color: rgb(31, 31, 31);
+    border-radius: 10%;
+    font-size: xx-small;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.clint{
+    margin: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: #94004f;
+    height: 40px;
+    color: white;
+    width: 100%;
+    font-weight: 900;
+    font-size: large;
+    display: flex;
+    gap: 20px;
+}
+.clin{
+    font-weight: 600;
+    font-size: x-small;
+}
+.deals{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 15px;
+    padding-left: 15px;
+}
+.gin{
+    display: flex;
+    background-color: white;
+
+}
+.gin div img{
+
+}
+del{
+    color: gray;
+}
+.gon{
+   font-size:x-small ;
+   font-weight: 900;
+}
+.kura{
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+}
+.leorio{
+    font-size: 8px;
+    font-weight: 700;
+    color: green;
+}
+.deals section{
+    padding-top: 35px;
+}
+.access{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.access div{
+    margin-top: 20px;
+    margin-left: 2px;
+    /* width: 100px;
+    height: 100px;
+    background-color: #e70680;
+    border-radius: 50%; */
+    
+}
+.diamond{
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 200px;
+}
+.dia{
+    display: flex;
+    gap: 20px;
+}
+.dia div{
+     font-weight: 900;
+     padding-left: 10px;
+     padding-top: 10px;
+}
+.see{
+    color: #8f2060;
+    font-size: 9px;
+    font-weight: 900;
+    padding-top: 07px;
+}
+.diamond hr{
+    margin-top: 10px;
+}
+.eren{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 10px;
+}
+.gon{
+    padding-top: 10px;
+}
+.src{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.mikasa{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.armin{
+    margin-top: 15px;
+}
+.narut{
+    color: #94004f;
+    font-size: 6px;
+}
+.naruto{
+    padding: 10px 0px;
+    font-size: xx-small;
+    font-weight: 900;
+    color: gray;
+}
+.kono{
+    font-weight: 900;
+    font-size:x-small;
+}
+.havells{
+    margin-left: 0px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+
+}
+.havells img{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}          
+.reiner{
+    padding-top: 40px;
+    font-weight: 900;
+}
+.braun{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #4c4c4c;
+    gap: 100px;
+    padding-left: 18px;
+    margin-top: 15px;
+}
+.pieck{
+    display: flex;
+}
+.piec{
+    align-content: flex-end;
+    color: whitesmoke;
+    font-size: xx-small;
+    font-weight: 900;
+    padding-left: 40px;
+
+
+}
+.pie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    color: #2e2e2e;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height:200px;
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+    gap: 20px;
+
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer div h6{
+    margin-top: 7px;
+}
+footer div p{
+    font-size: 9px;
+}
+.mbagwu{
+    flex-direction: initial;
+}
+.flexty{
+     flex-direction: initial;
+}
+
